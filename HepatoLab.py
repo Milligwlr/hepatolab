@@ -34,8 +34,9 @@ from sklearn.metrics import (
     roc_auc_score, roc_curve, confusion_matrix, classification_report,
     accuracy_score, precision_score, recall_score, f1_score,
     precision_recall_curve, average_precision_score, brier_score_loss,
-    calibration_curve, log_loss
+    log_loss
 )
+from sklearn.calibration import calibration_curve
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
